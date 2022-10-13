@@ -12,11 +12,13 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
+    
 }
 
 .container{
     width: 50%;
     margin: 2rem auto;
+    min-width: 900px;
 }
 
 header h1{
@@ -35,10 +37,12 @@ div.card img{
 
 .card{
     margin: 2rem 1rem 2rem 0;
-    width: calc((100% / 3) - 2rem);
+    width: calc((100% / 3) - 1.5rem);
     background-color: #0f0e17;
     color: white;
     display: inline-block;
+    box-shadow: 5px 2.5px 2.5px lightslategray;
+    
 }
 
 p{ 
@@ -50,8 +54,17 @@ h2{
     font-size: 1.2rem;
     
 }
+
 a{
     text-decoration: none;
     margin-left: 1rem;
     color: #40b6d4;
+}
+
+.card:hover{
+    box-shadow: 15px 10px 10px lightslategray;
+}
+
+section>p{
+    text-align: center;
 }
