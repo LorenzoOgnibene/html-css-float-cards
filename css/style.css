@@ -4,16 +4,39 @@
     box-sizing: border-box;
 }
 
+.clearfix::before{
+    content:"";
+    display: table;
+    clear: both;
+}
+
 body{
     font-family: 'Fredoka One', cursive;
+    
 }
 
 .container{
-    width: 70%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 2rem auto;
 }
 
 header h1{
     text-align: center;
     color: #e53170;
+}
+
+.float-left{
+    float: left;
+}
+
+div.card img{
+    height: 6rem;
+}
+
+.card{
+    margin: 2rem 1rem 2rem 0;
+    width: calc((100% / 3) - 2rem);
+    background-color: #0f0e17;
+    color: white;
+    display: inline-block;
 }
