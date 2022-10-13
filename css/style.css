@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka One', cursive;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    color: #e53170;
+}
